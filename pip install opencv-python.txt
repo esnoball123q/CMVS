@@ -1,10 +1,10 @@
 **Spanish**
-Despues de instalar Python abre tu cmd y ejecuta este codigo 
+Despues de instalar Python 3.12.3, abre tu cmd y ejecuta este codigo 
 pip install opencv-python
 y ahora si habre el "cmvs"
 
 **English**
-After installing Python, open your cmd and run this code 
+After installing Python 3.12.3, open your cmd and run this code 
 pip install opencv-python 
 and now the "cmvs" will open
 
