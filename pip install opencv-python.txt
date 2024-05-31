@@ -1,0 +1,11 @@
+**Spanish**
+Despues de instalar Python abre tu cmd y ejecuta este codigo 
+pip install opencv-python
+y ahora si habre el "cmvs"
+
+**English**
+After installing Python, open your cmd and run this code 
+pip install opencv-python 
+and now the "cmvs" will open
+
+>>Snaw16

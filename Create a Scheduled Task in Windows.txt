@@ -1,0 +1,36 @@
+To make your script run automatically every time your PC starts, you can set it up to launch as a scheduled task in the operating system. Here’s how to do it in Windows:
+
+### Create a Scheduled Task in Windows:
+
+1. **Open Task Scheduler**:
+   - Press `Win + R` to open the Run dialog box.
+   - Type `taskschd.msc` and press Enter. This will open the Windows Task Scheduler.
+
+2. **Create a New Task**:
+   - In the right panel, select "Create Task...".
+
+3. **Configure the Task**:
+   - In the "General" tab, give your task a name and optionally a description.
+   - Make sure the "Run with highest privileges" option is checked.
+
+4. **Set Up the Trigger**:
+   - Go to the "Triggers" tab and click "New".
+   - Select "At log on" from the list of options.
+   - Click "OK".
+
+5. **Set Up the Action**:
+   - Go to the "Actions" tab and click "New".
+   - In the "Program/script" field, enter the full path to your .bat script (for example, `C:\Users\(Username)\Desktop\cmvs\cmvs\fools_loop.bat`).
+   - Click "OK".
+
+6. **Configure the Conditions (Optional)**:
+   - You can go to the "Conditions" tab to check "Start the task only if the computer is on AC power" and uncheck "Stop if the computer switches to battery power", if applicable.
+
+7. **Finish and Save**:
+   - Click "OK" to create the task.
+
+Once you have set up this task, your script will run automatically every time you start your PC.
+
+Remember to ensure that Python is installed and properly configured on your system for the script to run smoothly. Also, make sure that the script path is correct in the task configuration.
+
+>>Snaw16

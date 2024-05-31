@@ -1,0 +1,37 @@
+Para hacer que tu script se ejecute automáticamente cada vez que se inicie la PC, puedes configurarlo para que se inicie como una tarea programada en el sistema operativo. Aquí te explico cómo hacerlo en Windows:
+
+### Crear una Tarea Programada en Windows:
+
+1. **Abrir el Programador de Tareas**:
+   - Presiona `Win + R` para abrir el cuadro de diálogo Ejecutar.
+   - Escribe `taskschd.msc` y presiona Enter. Esto abrirá el Programador de tareas de Windows.
+
+2. **Crear una Nueva Tarea**:
+   - En el panel derecho, selecciona "Crear tarea...".
+
+3. **Configurar la Tarea**:
+   - En la pestaña "General", da un nombre a tu tarea y opcionalmente una descripción.
+   - Asegúrate de que la opción "Ejecutar con los privilegios más altos" esté marcada.
+
+4. **Configurar el Desencadenador**:
+   - Ve a la pestaña "Desencadenadores" y haz clic en "Nuevo".
+   - Selecciona "Al iniciar Sesion" en la lista de opciones.
+   - Haz clic en "Aceptar".
+
+5. **Configurar la Acción**:
+   - Ve a la pestaña "Acciones" y haz clic en "Nuevo".
+   - En el campo "Programa o script", ingresa la ruta completa de tu script .bat (por ejemplo, `C:\Users\(Nombre del usuario)\Desktop\cmvs\cmvs\fools_loop.bat`).
+   - Haz clic en "Aceptar".
+
+6. **Configurar las Condiciones (Opcional)**:
+   - Puedes ir a la pestaña "Condiciones" para marcar "Iniciar la tarea solo si el equipo esta conectado a la corriente alterna" y desmarcar "Detener si el equipo empieza a usar la bateria", Si esta marcado claro
+
+7. **Finalizar y Guardar**:
+   - Haz clic en "Aceptar" para crear la tarea.
+
+Una vez que hayas configurado esta tarea, tu script se ejecutará automáticamente cada vez que inicies tu PC.
+
+Recuerda que debes asegurarte de que Python esté instalado y correctamente configurado en tu sistema para que el script se ejecute sin problemas. Además, asegúrate de que la ruta del script sea correcta en la configuración de la tarea.
+
+
+>>Snaw16
